@@ -16,7 +16,7 @@ const Index = (props: any) => {
         const formData = new FormData(e.currentTarget);
       
         axios
-          .post('https://giga-versal.vercel.app/send-email', formData, {
+          .post('https://giga-versal.vercel.app/api/send-email', formData, {
             headers: {
               'Content-Type': 'application/json',
             },
