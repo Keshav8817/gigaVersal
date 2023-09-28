@@ -472,7 +472,7 @@ const Career = () => {
                                 }}
                             >
                                 <img
-                                    src="/assets/images/gallery-1.png"
+                                    src="\Images\gigatorb2.jpg"
                                     alt="gallery-1"
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                                 />
@@ -487,7 +487,7 @@ const Career = () => {
                                 }}
                             >
                                 <img
-                                    src="/assets/images/gallery-2.png"
+                                    src="\Images\gigatorb3.jpg"
                                     alt="gallery-2"
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                                 />
@@ -502,7 +502,7 @@ const Career = () => {
                                 }}
                             >
                                 <img
-                                    src="/assets/images/gallery-3.png"
+                                    src="\Images\gigatorb5.jpg"
                                     alt="gallery-3.png"
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                                 />
@@ -519,7 +519,7 @@ const Career = () => {
                                 }}
                             >
                                 <img
-                                    src="/assets/images/gallery-4.png"
+                                    src="\Images\gigatorb7.jpg"
                                     alt="gallery-4"
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                                 />
@@ -534,7 +534,7 @@ const Career = () => {
                                 }}
                             >
                                 <img
-                                    src="/assets/images/gallery-5.png"
+                                    src="\Images\gigatorb11.jpg"
                                     alt="gallery-5"
                                     className="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                                 />
@@ -785,75 +785,75 @@ const Career = () => {
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Aditya Patel
+                            Amar Rathod
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Executive Officer</h6>
+                
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Audrey Ramirez
+                            Payal Vishwakarma
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Operating Officer</h6>
+                       
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                James Robinson
+                            Pragya Malviya
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Financial Officer</h6>
+                          
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Daniel Allen
+                            Meenakshi Dixit
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
+                      
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Aditya Patel
+                            Bhupendra Barfa
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Executive Officer</h6>
+                       
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Audrey Ramirez
+                            Jay Maheshwari
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Operating Officer</h6>
+                          
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                James Robinson
+                            Umang Mandhanya
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Financial Officer</h6>
+                          
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/team-member-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
+                                <img src="/assets/images/team-membr-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Daniel Allen
+                            Aditi Jain
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
+                          
                         </div>
                     </div>
                 </div>

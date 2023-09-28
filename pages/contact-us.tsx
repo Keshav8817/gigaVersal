@@ -39,7 +39,7 @@ const Contactus = () => {
                         <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>Contact Us</h6>
-                                <h4 className="!text-white">Get in touch with us</h4>
+                                <h4 className="!text-white">Reach Out Today</h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                                 <svg
