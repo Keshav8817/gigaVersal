@@ -713,84 +713,84 @@ Lav Kumar Pandey, CEO & Founder
                         <div className="projects mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                             <div className={`project ${activeTab === 'all' || activeTab === 'celebrations' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Celebration-3.jpg" alt="project-1" className="h-52 w-full rounded-t-3xl object-cover" />
                                   
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'celebrations' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Celebration-1.jpg" alt="project-2" className="h-52 w-full rounded-t-3xl object-cover" />
                                    
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'celebrations' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Celebration-4.jpg" alt="project-3" className="h-52 w-full rounded-t-3xl object-cover" />
                                  
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'outing' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\outing-3.jpg" alt="project-4" className="h-52 w-full rounded-t-3xl object-cover" />
                                   
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'work' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Work-1.jpg" alt="project-5" className="h-52 w-full rounded-t-3xl object-cover" />
                                   
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'work' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="https://lh3.googleusercontent.com/p/AF1QipOUcWmOrsHZUyS-gS4z95HT7l9SFpNVpdj0CfJM=s680-w680-h510" alt="project-6" className="h-52 w-full rounded-t-3xl object-cover" />
                                   
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'celebrations' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Celebration-5.jpg" alt="project-7" className="h-52 w-full rounded-t-3xl object-cover" />
                                    
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'celebrations' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Celebration-6.jpg" alt="project-8" className="h-52 w-full rounded-t-3xl object-cover" />
                                    
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'celebrations' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\Celebration-7.jpg" alt="project-9" className="h-52 w-full rounded-t-3xl object-cover" />
                                    
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'outing' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\outing-1.jpg" alt="project-10" className="h-52 w-full rounded-t-3xl object-cover" />
                                    
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'outing' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\outing-2.jpg" alt="project-11" className="h-52 w-full rounded-t-3xl object-cover" />
                                   
                                 </div>
                             </div>
                             <div className={`project ${activeTab === 'all' || activeTab === 'outing' ? 'block' : 'hidden'}`}>
                                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark dark:drop-shadow-none">
-                                    <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                    {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                     <img src="\assets\images\Gallary\outing-4.jpg" alt="project-12" className="h-52 w-full rounded-t-3xl object-cover" />
                                    
                                 </div>

@@ -20,41 +20,51 @@ const Company = () => {
             <Head>
                 <title>Company </title>
             </Head>
-            <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
+            <div className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
                 <div className="relative">
+                    <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" className="absolute left-0 top-20" />
+                    <img src="/assets/images/banner-rightIcon.png" alt="banner-rightIcon" className="absolute right-0 -top-4" />
                     <div className="container">
-                        <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
-                            <div className=" heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
-                               
-                            <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px] text-primary">
+                        <div className="relative flex flex-col items-center bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat lg:flex-row">
+                            <div className="flex-1 py-10 text-center text-white ltr:lg:text-left rtl:lg:text-right ">
+                            <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px] text-primary animate-pulse ">
                             Giga
-                          <span className="!text-white ">Torb</span></h2>
+                          <span className="!text-white  ">Torb</span></h2>
                                 <div>
-                                <h6 className="!text-white " >
+                                <h6 className="!text-white "
+                                  data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                  data-aos-duration="1000" >
                                 At Gigatorb , our purpose extends beyond technology. We are committed to making a positive impact on society. Through innovation and ethical practices,
                                  we strive to create solutions that address real-world challenges and contribute to a better future for all.
                                 </h6>
                                 </div>
                             </div>
+                            <div>
+                                <img 
+                                    src="\assets\images\Gallary\compimg.png"
+                                    alt="crypto-banner"
+                                    className="rtl:rotate-y-0 mx-auto h-[500px] w-full max-w-[560px]"
+                                    data-aos={isRtl ? 'fade-right' : 'fade-left'}
+                                    data-aos-duration="1000"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
+           
+            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 ">
                 <div className="relative bg-center">
-                    <img
-                        src="/assets/images/how-we-do-it_.png"
-                        alt="how-we-do-it"
-                        className="absolute inset-x-0 bottom-[93%] mx-auto hidden md:block xl:bottom-[91%]"
-                    />
                     <img
                         src="\assets\images\Gallary\critical_technologies.png"
                         alt="service-video-bg"
-                        className="relative z-[1] h-[200px] w-full object-cover object-top sm:h-[500px] lg:h-[400 px]"
+                        className="relative z-[1]  w-full object-cover object-top sm:h-[500px] "
                     />
                     <div className="absolute -inset-x-4 bottom-0 h-12 -rotate-[2deg] bg-[#7780A1]/10 xl:bottom-3"></div>
                     <div className="absolute top-1/2 z-[1] -translate-y-1/2 ltr:left-5 ltr:pr-5 rtl:right-5 rtl:pl-5 ltr:lg:left-[10%] rtl:lg:right-[10%] ">
-                        <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]">
+                        <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]"
+                           data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                           data-aos-duration="1000">
                             Core<span className='text-primary'> Values</span> 
                            <ul className='text-lg'>
                             <li><span className='text-primary'> Integrity:</span>  Committed to upholding promises and honouring commitments. </li>
@@ -68,22 +78,20 @@ const Company = () => {
                     </div>
                 </div>
             </section>
-            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
+            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14  ">
                 <div className="relative bg-center">
-                    <img
-                        src="/assets/images/how-we-do-it_.png"
-                        alt="how-we-do-it"
-                        className="absolute inset-x-0 bottom-[93%] mx-auto hidden md:block xl:bottom-[91%]"
-                    />
+                  
                     <img
                         src="\assets\images\Gallary\vision.jpg"
                         alt="service-video-bg"
-                        className="relative z-[1] h-[400px] w-full object-cover object-top sm:h-[500px] lg:h-[400px]"
+                        className="relative z-[1] w-full object-cover object-top sm:h-[500px] "
                     />
                     <div className="absolute -inset-x-4 bottom-0 h-12 -rotate-[2deg] bg-[#7780A1]/10 xl:bottom-3"></div>
                     <div className="absolute top-1/2 z-[1]   -translate-y-1/2 ltr:left-5 ltr:pr-5 rtl:right-5 rtl:pl-5 ltr:lg:left-[10%] rtl:lg:right-[10%] xl:w-[620px] ">
-                        <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]">
-                          <span className='text-primary'> Vision</span> 
+                        <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]"
+                           data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                           data-aos-duration="1000">
+                          
                           <h6 className='text-lg'> 
                           To excel as a top-tier IT company, prioritizing customer growth, delivering high-quality work, 
                           and being recognized as a reliable and innovative service provider that contributes to societal betterment.
@@ -93,21 +101,19 @@ const Company = () => {
                     </div>
                 </div>
             </section>
-            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
+            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 ">
                 <div className="relative bg-center">
-                    <img
-                        src="/assets/images/how-we-do-it_.png"
-                        alt="how-we-do-it"
-                        className="absolute inset-x-0 bottom-[93%] mx-auto hidden md:block xl:bottom-[91%]"
-                    />
+                  
                     <img
                         src="\assets\images\Gallary\mission.jpeg"
                         alt="service-video-bg"
-                        className="relative z-[1] h-[400px] w-full object-cover object-top sm:h-[500px] lg:h-[400px]"
+                        className="relative z-[1]  w-full object-cover object-top sm:h-[500px] "
                     />
                     <div className="absolute -inset-x-4 bottom-0 h-12 -rotate-[2deg] bg-[#7780A1]/10 xl:bottom-3"></div>
-                    <div className="absolute  top-1/2 z-[1] -translate-y-1/2 ltr:left-5 ltr:pr-5 rtl:right-5 rtl:pl-5 ltr:lg:left-[50%] rtl:lg:right-[10%] xl:w-[620px]">
-                        <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]">
+                    <div className="absolute top-1/2 z-[1]   -translate-y-1/2 ltr:left-5 ltr:pr-5 rtl:right-5 rtl:pl-5 ltr:lg:left-[10%] rtl:lg:right-[10%] xl:w-[620px] ">
+                        <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]"
+                          data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                          data-aos-duration="1000">
                            <span className='text-primary '>Mission</span> 
                            <h6 className='text-lg'>
                            We aim to surpass client expectations by delivering web solutions that transform data into actionable knowledge, empowering them to solve their challenges effectively.

@@ -33,46 +33,61 @@ const Index = (props: any) => {
 
     return (
         <div className="overflow-x-hidden">
-            <div className="overflow-hidden bg-black pt-[82px] sm:-mx-[250px] sm:rounded-b-[50%] lg:-mx-[150px] lg:pt-[106px]">
-                <div className="relative">
-                    <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" className="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]" />
-                    <img
-                        src="/assets/images/banner-rightIcon.png"
-                        alt="banner-rightIcon"
-                        className="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]"
-                    />
-                    <div className="container">
-                        <div className="relative bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
-                            <div className="relative z-[1] text-center text-white ">
-                                <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px] ">
-                                    Let's Elevate Your<span className="italic text-primary"> IT </span> <span className="italic text-secondary">Journey</span>{' '}
-                                    Together 🚀
-                                </h2>
-                                <p className="my-8 text-lg font-extrabold text-primary text-center " 
-                                 data-aos={isRtl ? 'fade-left' : 'fade-right'}
-                                 data-aos-duration="1000"
-                                 data-aos-offset="0"
-                                 data-aos-delay="200">Compassionately Compact, Powerfully Transformative</p>
-                                <p className="my-8 text-lg  text-center  " 
-                                 data-aos={isRtl ? 'fade-right' : 'fade-left'}
-                                 data-aos-duration="1000"
-                                 data-aos-offset="0"
-                                 data-aos-delay="200">
-                                    We are committed to an unceasing trajectory of transformation. Our
+            <div className="overflow-hidden bg-black  sm:-mx-[250px] sm:rounded-b-[50%] lg:-mx-[150px] ">
+            <div className="relative">
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    className="absolute inset-0 object-cover w-full h-full"
+                >
+                    <source src="pexels-mikhail-nilov.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <img
+                    src="/assets/images/banner-lefticon.png"
+                    alt="banner-lefticon"
+                    className="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]"
+                />
+                <img
+                    src="/assets/images/banner-rightIcon.png"
+                    alt="banner-rightIcon"
+                    className="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]"
+                />
+                <div className="container">
+                    <div className="relative bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pt-14 pb-0 lg:pt-20 lg:pb-60 xl:pt-36">
+                        <div className="relative z-[1] text-center text-white ">
+                            <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px] ">
+                                Let's Elevate Your<span className="italic text-primary"> IT </span> <span className="italic text-secondary">Journey</span>{' '}
+                                Together <span className=' animate-bounce !important'>🚀</span>
+                            </h2>
+                            <p className="my-8 text-lg font-extrabold text-primary   animate-pulse text-center " 
+                               
+                                 >Compassionately Compact, Powerfully Transformative</p>
+                            <p
+                                className="my-8 text-lg  text-center "
+                                data-aos={isRtl ? 'fade-right' : 'fade-left'}
+                                data-aos-duration="1000"
+                                data-aos-offset="0"
+                                data-aos-delay="200"
+                            >
+                                  We are committed to an unceasing trajectory of transformation. Our
                                     agenda spans the complete spectrum of technological, commercial, and societal transformation, and our dedication to
                                     innovation, agility, and client-centricity unequivocally positions us as leaders in the ever-evolving realm of IT. Our
                                     unwavering mission is to consistently set new benchmarks, transcend existing boundaries, and redefine the very limits of
                                     possibility within the IT industry.
-                                </p>
-                                <Link href="/about-us" className="btn mx-auto mt-2  w-fit bg-white lg:mx-0 lg:rtl:ml-auto content-center">
-                                    read more
-                                </Link>
-                            </div>
-                           
+                            </p>
+                            <Link
+                                href="/about-us"
+                                className="btn mx-auto mt-2  w-fit bg-white lg:mx-0 lg:rtl:ml-auto content-center"
+                            >
+                                read more
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">

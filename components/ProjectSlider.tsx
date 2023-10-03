@@ -18,12 +18,12 @@ const ProjectSlider = (props: any) => {
                         <h4>{props.title2}</h4>
                     </div>
                     <div className="flex items-center justify-end gap-4">
-                        <Link
+                        {/* <Link
                             href="/portfolio-detail"
                             className="text-sm font-extrabold text-black transition hover:text-secondary dark:text-white dark:hover:text-secondary"
                         >
                             View All
-                        </Link>
+                        </Link> */}
                         <div>
                             <button
                                 type="button"
@@ -112,7 +112,7 @@ const ProjectSlider = (props: any) => {
                     >
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                 <img src="\assets\images\Gallary\Screenshot_31.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Twn - Child welfare management</h6>
@@ -122,7 +122,7 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                 <img src="\assets\images\Gallary\Screenshot_11.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Zagime - Child welfare management</h6>
@@ -132,7 +132,7 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
                                 <img src="\assets\images\Gallary\Screenshot _21.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Bhawna Granites - Marble Website</h6>
@@ -142,8 +142,8 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="\assets\images\Gallary\Screenshot_31.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
+                                <img src="\assets\images\Gallary\Screenshot_1.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Port - Cost Simulator</h6>
                                     <p>Website</p>
@@ -152,8 +152,8 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
-                                <img src="\assets\images\Gallary\Screenshot_31.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                {/* <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link> */}
+                                <img src="\assets\images\Gallary\Screenshot_1.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h6 className="mb-1 text-black line-clamp-1 dark:text-white">EPO - Fuel Management Website </h6>
                                     <p>Website</p>

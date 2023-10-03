@@ -10,6 +10,7 @@
         "serve": "http-server .next -p 8080"
     },
     "dependencies": {
+        "@fontsource/bitter": "^5.0.8",
         "@mui/icons-material": "^5.14.9",
         "@reduxjs/toolkit": "^1.9.0",
         "@tailwindcss/line-clamp": "^0.4.2",
