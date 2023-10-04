@@ -20,38 +20,37 @@ const Company = () => {
             <Head>
                 <title>Company </title>
             </Head>
-            <div className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
+            <div className="overflow-hidden bg-black pt-[82px] sm:-mx-[250px] sm:rounded-b-[50%] lg:-mx-[150px] ">
                 <div className="relative">
-                    <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" className="absolute left-0 top-20" />
-                    <img src="/assets/images/banner-rightIcon.png" alt="banner-rightIcon" className="absolute right-0 -top-4" />
-                    <div className="container">
-                        <div className="relative flex flex-col items-center bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat lg:flex-row">
-                            <div className="flex-1 py-10 text-center text-white ltr:lg:text-left rtl:lg:text-right ">
-                            <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px] text-primary animate-pulse ">
-                            Giga
-                          <span className="!text-white  ">Torb</span></h2>
-                                <div>
-                                <h6 className="!text-white "
-                                  data-aos={isRtl ? 'fade-left' : 'fade-right'}
-                                  data-aos-duration="1000" >
-                                At Gigatorb , our purpose extends beyond technology. We are committed to making a positive impact on society. Through innovation and ethical practices,
-                                 we strive to create solutions that address real-world challenges and contribute to a better future for all.
-                                </h6>
-                                </div>
-                            </div>
-                            <div>
-                                <img 
-                                    src="\assets\images\Gallary\compimg.png"
-                                    alt="crypto-banner"
-                                    className="rtl:rotate-y-0 mx-auto h-[500px] w-full max-w-[560px]"
-                                    data-aos={isRtl ? 'fade-right' : 'fade-left'}
-                                    data-aos-duration="1000"
-                                />
-                            </div>
+                    <img src="/assets/images/banner-lefticon.png" alt="banner-lefticon" className="absolute left-0 top-20 sm:left-[250px] lg:left-[150px]" />
+                    <img
+                        src="/assets/images/banner-rightIcon.png"
+                        alt="banner-rightIcon"
+                        className="absolute right-0 -top-4 sm:right-[250px] lg:right-[150px]"
+                    />
+                </div>
+                <div className="container relative bg-[url(/assets/images/world-map.png)] bg-cover">
+                    <div className="flex flex-col items-center gap-7 lg:flex-row">
+                        <div className="flex-1 pb-14 pt-14 text-white ltr:text-center rtl:text-center lg:max-w-[558px] lg:pb-52 ltr:lg:text-left rtl:lg:text-right xl:pt-36">
+                            <h2 className="text-3xl font-extrabold sm:text-5xl lg:text-[70px] lg:leading-[89px] animate-pulse">
+                            Giga<span className="text-primary">Torb</span>
+                              
+                            </h2>
+                            <p className="mt-7 text-lg font-semibold"
+                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                             data-aos-duration="1000">
+                             At Gigatorb , our purpose extends beyond technology. We are committed to making a positive impact on society. Through innovation and ethical practices,
+                                 we strive to create solutions that address real-world challenges and contribute to a better future for all.</p>
+                          
+                        </div>
+                        <div className="mb-10 w-full max-w-[500px] flex-none lg:mb-0" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="\assets\images\Gallary\compimg.png" className="rtl:rotate-y-180 xl:ml-[100px]" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
+
+          
            
             <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 ">
                 <div className="relative bg-center">
@@ -82,7 +81,7 @@ const Company = () => {
                 <div className="relative bg-center">
                   
                     <img
-                        src="\assets\images\Gallary\vision.jpg"
+                        src="\assets\images\Gallary\vision.jpeg"
                         alt="service-video-bg"
                         className="relative z-[1] w-full object-cover object-top sm:h-[500px] "
                     />
@@ -91,7 +90,7 @@ const Company = () => {
                         <p className="pb-8 text-sm font-extrabold text-white sm:text-4xl sm:leading-[50px]"
                            data-aos={isRtl ? 'fade-left' : 'fade-right'}
                            data-aos-duration="1000">
-                          
+                                 <span className='text-primary '>Vision</span> 
                           <h6 className='text-lg'> 
                           To excel as a top-tier IT company, prioritizing customer growth, delivering high-quality work, 
                           and being recognized as a reliable and innovative service provider that contributes to societal betterment.

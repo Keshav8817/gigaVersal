@@ -174,7 +174,7 @@ const RealEstate = () => {
                         <div className="relative mx-auto max-w-[1440px] bg-gray/5 pt-12 dark:bg-gray/[0.05] lg:max-h-[400px]">
                             <div className="container">
                                 <div className="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
-                                    <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">our services</h6>
+                                    <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">Our Services</h6>
                                     <h4 className="!font-black">
                                     Customized <span className="text-secondary"> Testing </span> Solutions
                                     </h4>
@@ -552,7 +552,7 @@ const RealEstate = () => {
                         </span> */}
                         <div className="container">
                             <div className="heading mb-0 w-full text-center lg:max-w-[478px] ltr:lg:text-left rtl:lg:text-right">
-                                <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">why choose</h6>
+                                <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">Why Us</h6>
                                 <h4 className="!font-black">
                                     WHY OUR CLIENTS <span className="text-secondary">CHOOSE US?</span>
                                 </h4>
@@ -746,9 +746,9 @@ const RealEstate = () => {
                                 <div className="flex flex-col items-center justify-between gap-[73px] lg:flex-row">
                                     <div>
                                         <div className="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
-                                            <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">testimonials</h6>
+                                            <h6 className="inline-block bg-secondary/10 px-2.5 py-2 !text-secondary">Testimonials</h6>
                                             <h4 className="!font-black">
-                                                WHAT OUR CUSTOMERS ARE <span className="text-secondary">SAYING US?</span>
+                                            Voices <span className="text-secondary">of</span> Satisfaction
                                             </h4>
                                         </div>
                                     

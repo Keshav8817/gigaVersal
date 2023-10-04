@@ -327,7 +327,7 @@ const Crypto = (props: any) => {
                 <div className="container">
                     <div className="mx-auto mb-10 w-full max-w-[610px] space-y-5 text-center" data-aos="fade-down" data-aos-duration="1000">
                         
-                        <h3 className="text-3xl font-extrabold text-primary dark:text-primary lg:text-[40px] lg:leading-[60px]">Our Services</h3>
+                        <h3 className="text-3xl font-extrabold text-primary dark:text-primary lg:text-[40px] lg:leading-[60px]">Our <span className='text-secondary'>Services</span></h3>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-4">
                         <div className="grid grid-cols-1 gap-5 text-center" data-aos="fade-right" data-aos-duration="1000">
@@ -353,28 +353,29 @@ const Crypto = (props: any) => {
                                 </svg>
                             </div>
                             <div className="space-y-2.5">
-                            <h4 className="text-lg font-bold ">Website Design and Development</h4>
+                            <h4 className="text-lg font-bold text-primary">Website Design and Development</h4>
                                     <p className="mt-2.5 font-semibold">We create visually stunning and highly functional websites tailored to your business needs.</p>
                                  </div>
-                        </div>
-                        <div className="grid grid-cols-1 gap-5 text-center" data-aos="fade-right" data-aos-duration="1000">
-                            <div className="mx-auto grid h-20 w-20 place-content-center">
-                                <img src="/assets/images/online-payments/work-icon2.svg" alt="" />
-                            </div>
-                            <div className="space-y-2.5">
-                            <h4 className="text-lg font-bold ">E-Commerce Development</h4>
-                                    <p className="mt-2.5 font-semibold">We specialize in building secure and scalable e-commerce websites that drive sales and enhance user experiences</p>
-                              </div>
                         </div>
                         <div className="grid grid-cols-1 gap-5 text-center" data-aos="fade-left" data-aos-duration="1000">
                             <div className="mx-auto grid h-20 w-20 place-content-center">
                                 <img src="/assets/images/online-payments/work-icon3.svg" alt="" />
                             </div>
                             <div className="space-y-2.5">
-                            <h4 className="text-lg font-bold ">Web Application Development</h4>
+                            <h4 className="text-lg font-bold text-secondary ">Web Application Development</h4>
                                     <p className="mt-2.5 font-semibold">Need a custom web application? We have the skills to turn your ideas into reality..</p>
                                 </div>
                         </div>
+                        <div className="grid grid-cols-1 gap-5 text-center" data-aos="fade-right" data-aos-duration="1000">
+                            <div className="mx-auto grid h-20 w-20 place-content-center">
+                                <img src="/assets/images/online-payments/work-icon2.svg" alt="" />
+                            </div>
+                            <div className="space-y-2.5">
+                            <h4 className="text-lg font-bold text-primary ">E-Commerce Design and Development</h4>
+                                    <p className="mt-2.5 font-semibold">We specialize in building secure and scalable e-commerce websites that drive sales and enhance user experiences</p>
+                              </div>
+                        </div>
+                      
                         <div className="grid grid-cols-1 gap-5 text-center" data-aos="fade-left" data-aos-duration="1000">
                             <div className="mx-auto grid h-20 w-20 place-content-center">
                             <svg className="mx-auto h-[42px] w-[42px] sm:mx-0" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -397,7 +398,7 @@ const Crypto = (props: any) => {
                                 </svg>
                             </div>
                             <div className="space-y-2.5">
-                            <h4 className="text-lg font-bold ">Maintenance and Support</h4>
+                            <h4 className="text-lg font-bold text-secondary ">Maintenance and Support</h4>
                                     <p className="mt-2.5 font-semibold">We offer ongoing support and maintenance services to ensure your website remains up-to-date and secure.</p>
                                  </div>
                         </div>
